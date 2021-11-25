@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333b50;
+    background: url(/header.webp) no-repeat fixed;
+    height: 170vh;
+}
+
+.navbar-brand{
+    font-size: 1.6rem !important;
+    height: 50px;
+    width: 50px;
+    padding: 5px 16px!important;
+    border: 5px solid #00d646;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 50px;
+    color: #00d646!important;
+}
+
+.navbar-collapse{
+    margin-left: 200px;
+}
+.nav-link1{
+    color: #00d646!important;
+}
+.header-text{
+    margin: 150px 0 0 280px;
+}
+.header-box{
+    margin: 165px 0 0 130px;
+    height: 313px;
+    width: 820px;
+    background: #333b50;
+}
+
+.brand-box{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 3.4rem !important;
+    height: 90px;
+    width: 90px;
+    border: 8px solid #00d646;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 50px;
+}
+.box-text{
+    width: 65%;
+    margin-left: 15%;
+    color: white;
+}
+section{
+    background: url(section.webp) no-repeat fixed;
+    position: relative;
+    z-index: -1;
+}
+.sec-text{
+    padding-top: 30%;
+}
+.level-prog h5{
+    line-height:1.8em;
+    text-align:center;
+    font-size:24px;
+    letter-spacing:0.18em;
+    color: #fff;
+}
+.font_3{
+    text-align: center; 
+    font-size: 48px;
+    letter-spacing:0.1em;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.color_25{
+    color: #bec7d5;
+}
+.percents{
+    margin-top: 10%;
+    margin-bottom: 80px;
+}
+.per-div{
+    height: 12px;
+    width: 40%;
+    background: #00d646;
+    padding: 0;
+}
+.per-7{
+    color: #bec7d5;
+}
+.port-02{
+    background: url(port-02.webp) no-repeat center center/cover;
+    height: 2800px;
+    width: 100%;
+    /* --bg-overlay-color: rgb(var(--color_21));
+    --fill-layer-image-opacity: 0.35; */
+}
+.cards{
+    margin: 50px 0 0 100px !important;
+    
+}
+.cards img{
+    width: 327px;
+    height: 320px;
+    padding: 0;
+}
+.sec-text1{
+    padding-top: 20%;
+}
+.font-5{
+    /* line-height:1.8em; */
+    text-align:center;
+    font-size:24px;
+    letter-spacing:0.1em;
+}
+.experiense{
+    margin-top: 26%;
+}
+.row1{
+    margin: 0 !important;
+    /* --bs-gutter-x: 0; */
+}
+.font_7{
+    color: #00d646;
+    font-size:16px;
+    letter-spacing:0.05em;
+}
+.font_5{
+    color: white;
+    font-size:24px;
+}
+.font_8{
+    color: white;
+    /* line-height:1.9em; */
+    font-size:15px;
+    font-family:open sans,sans-serif;
+    font-weight:bold;
+}
+.font_9{
+    color: #bec7d5;
+    /* line-height:1.9em; */
+    font-size:15px;
+    font-family:open sans,sans-serif;
+} 
+.bottom-fixed-img{
+    background: url(main.webp) no-repeat  !important;
+    height: 500px !important;
+    z-index: -1;
+    /* bottom: 2rem; */
+}
+.contact{
+    width: 940px;
+    height: 624px;
+    background: #333b50;
+    position: relative;
+    z-index: 1;
+    top: -15rem;
+    margin-left: 13%;
+}
+.contact-info{
+    padding-top: 10%;
+}
+.contact-right{
+    width: 360px !important;
+    height: 328px;
+    background: #324158;
+}
+.top-in input{
+    width: 152px;
+    height: 35px;
+    margin: 7px 0 0 18px;
+}
+input{
+    padding: 3px 3px 3px 24px !important;
+}
+.phone-in input{
+    margin: 7px 0 0 7px;
+    width: 319px;
+    height: 35px;
+}
+textarea{
+    padding: 13px 10px 0 24px;
+    margin: 7px 0 0 7px !important;
+    width: 319px;
+    height: 141px;
+}
+.contact-btn{
+    width: 319px;
+    height: 35px;
+    background: #00d646;
+    color: #fff;
+    border: none;
+    margin: 13px 0 0 8px;
+}
+.contact-btn:hover{
+    background: #324158;
+}
+.contact-icons i{
+    padding-left: 13px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+footer{
+    width: 100%;
+    height: 116px !important;
+    background: #333b50;   
+}
+.footer-brand{
+    font-size: 1.6rem !important;
+    height: 50px;
+    width: 50px;
+    padding: 5px 16px!important;
+    border: 5px solid #00d646;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 50px;
+    color: #00d646!important;
+}
+.footer-inner{
+    padding-top: 40px;
+}
+.footer-inner a{
+    text-decoration: none;
+}
+.footer-inner p{
+    padding-right: 90px !important;
+    text-align:center;
+    font-size:14px;
+    color: #bec7d5;
+}
+
+
+
+@media (max-width: 812px) and (min-width: 375px) {
+    .cards{
+        margin-left: 52px !important;
+    }
+    .cards img{
+        width: 280px;
+        height: 156px;
+    }
+    .header-box{
+        margin: 0 0 0 30px;
+        height: 650px;
+        width: 280px;
+    }
+    .contact{
+        width: 280px;
+        height: 840px;
+        position: relative;
+        z-index: 1;
+        top: -30rem;
+    }
+    .top-in input{
+        width: 248px;
+        height: 40px;
+    }
+    .phone-in input{
+        width: 248px;
+        height: 40px;
+    }
+    textarea{
+        width: 248px;
+        height: 161px;
+    }
+    .contact-btn{
+        width: 248px;
+        height: 40px;
+    }
+    .contact-info{
+        display: block;
+    }
+    .header-text{
+        margin: 150px 0 0 50px;   
+    }
+    .font1{
+        font-size: 25px !important;
+    }
+    .font2{
+        font-size: 25px !important;
+    }
+    .h-5{
+        color: black;
+        font-size: 25px;
+    }
+    .l-r{
+        text-align: left;
+    }
+    .sec-text1 h3, h5{
+        font-size: 20px;
+    }
+    .sec-text h1{
+        font-size: 24px;
+    }
+    .contact-icons{
+        padding-top: 25px;
+    }
+}
